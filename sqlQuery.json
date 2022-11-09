@@ -1,0 +1,8 @@
+{
+    "kategori": {
+        "create-database": "CREATE TABLE IF NOT EXIST Kategori (id INTEGER PRIMARY KEY, name TEXT, colorCode INTEGER)",
+        "get-list": "SELECT * FROM Kategori",
+        "insert": "INSERT INTO Kategori(name, colorCode) VALUES(?,?)"
+    }
+
+}
